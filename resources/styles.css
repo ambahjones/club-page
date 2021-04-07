@@ -1,4 +1,8 @@
 * {
+  margin: 0;
+}
+
+html {
   font-size: 10px;
   font-family: AmericanTypewriter, serif;
   text-align: center;
@@ -35,6 +39,7 @@ h1 {
   font-family: "Cinzel", serif;
   font-size: 3.8rem;
   padding-left: 2rem;
+  margin-top: 2.5rem;
 }
 
 #nav-links {
@@ -42,10 +47,10 @@ h1 {
 }
 
 nav {
-  text-align: right;
   display: block;
   flex-grow: 2;
   height: 10rem;
+  text-align: right;
 }
 
 nav span {
@@ -93,6 +98,33 @@ main {
   background-color: rgb(252, 249, 249, 0.5);
 }
 
+#who-we-are {
+  height: 30rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#who-we-are h2 {
+  font-size: 3rem;
+  padding: 3rem;
+}
+
+#who-we-are p {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  text-align: left;
+  padding-bottom: 3rem;
+}
+
+#who-we-are h4 {
+  font-size: 2.2rem;
+}
+
+#readers {
+  background-color: rgb(252, 249, 249, 0.5);
+}
+
 #reader-img {
   width: 90%;
   margin: 0 auto;
@@ -109,4 +141,100 @@ main {
 #img-container img {
   width: 40rem;
   height: 27rem;
+}
+
+#reader-img-cap {
+  padding-bottom: 5rem;
+}
+
+#reader-img-cap h4 {
+  font-size: 2.4rem;
+}
+
+#book-of-the-month {
+  height: 50rem;
+  width: 75%;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.bookCard {
+  width: 50%;
+}
+
+.bookCard h2 {
+  font-size: 2.4rem;
+  padding: 5rem 0;
+}
+
+.bookCard img {
+  width: 20rem;
+}
+
+#join-us {
+  height: 40rem;
+  padding: 5rem 0;
+}
+
+#join-us h2 {
+  font-size: 2.4rem;
+  padding: 3rem 0;
+}
+
+form {
+  width: 40%;
+  height: 30rem;
+  margin: 0 auto;
+  background-color: #fcf9f9;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 3rem;
+  padding: 2rem;
+}
+
+form label {
+  font-size: 1.8rem;
+  padding-right: 1rem;
+}
+
+form input {
+  width: 60%;
+  height: 2rem;
+}
+
+form #join-button {
+  width: 20%;
+  height: 5rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+footer {
+  height: 10rem;
+  background-color: #fcf9f9;
+  margin-top: 2rem;
+}
+
+footer span {
+  height: 3rem;
+  padding: 2rem 4rem;
+  margin-top: 2rem;
+}
+
+footer h6 {
+  font-size: 1.8rem;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+footer #address {
+  font-size: 1.8rem;
+}
+
+footer #credits {
+  text-align: right;
+  flex-grow: 2;
+  font-size: 1.2rem;
+  margin-top: 2.5rem;
 }

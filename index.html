@@ -16,10 +16,11 @@
         <nav>
             <div id="nav-links">
                 <span class="lgScreen"><a href="#">Home</a></span>
-                <span class="lgScreen"><a href="">Join</a></span>
-                <span class="lgScreen"><a href="">BotM</a></span>
-                <span class="lgScreen"><a href="">Contact</a></span>
-                <span class="mobileNav"><a href="">Back to Top</a></span>
+                <span class="lgScreen"><a href="#book-of-the-month">Book of the Month</a></span>
+                <span class="lgScreen"><a href="#join-us">Join</a></span>
+                <span class="lgScreen"><a href="#contact-info">Contact</a></span>
+                <span class="lgScreen"><a href="#about">Top</a></span>
+                <span class="mobileNav"><a href="#about">Back to Top</a></span>
             </div>
         </nav>
     </header>
@@ -35,34 +36,63 @@
 
         <div id="who-we-are">
             <h2>Connect with fellow readers!</h2>
-            <p>We are the meeting of the minds, a book club located at and run by Adventures of the Mind bookstore. We meet the first Saturday of every month and will have the book of the month in stock for you until that time! All we ask is that you please consider purchasing the book of the month from us (unless you own it already). We announce next month's book a week before the monthly meeting (this makes it easier for you to pick up a copy when we meet).</p>
-            <p>Interested? Join below!</p>
+            <p>We are Meeting of the Minds, a book club located at and run by Adventures of the Mind bookstore. We meet the first Saturday of every month and will have the book of the month in stock for you until that time! All we ask is that you please consider purchasing the book of the month from us (unless you own it already). We announce next month's book a week before the monthly meeting (this makes it easier for you to pick up a copy when we meet).</p>
+            <h4>Interested? Join below!</h4>
         </div>
 
-        <div id="reader-img">
-            <div class="flex" id="img-container">
-                <img src="./resources/images/ben-white-1MHU3zpTvro-unsplash.jpg" alt="">
-                <img src="./resources/images/kinga-cichewicz-DUSEStKsb6Q-unsplash.jpg" alt="">
-                <img src="./resources/images/prasanna-kumar-jsN4NYG0DRk-unsplash.jpg" alt="">
+        <div id="readers">
+            <div id="reader-img">
+                <div class="flex" id="img-container">
+                    <img src="./resources/images/ben-white-1MHU3zpTvro-unsplash.jpg" alt="">
+                    <img src="./resources/images/kinga-cichewicz-DUSEStKsb6Q-unsplash.jpg" alt="">
+                    <img src="./resources/images/prasanna-kumar-jsN4NYG0DRk-unsplash.jpg" alt="">
+                </div>
+                    
+            </div>
+                    
+            <div id="reader-img-cap">
+                <h4>Get out there and read!</h4>
             </div>
         </div>
 
-        <div>
-            <p>Get out there and read!</p>
+        <div class="flex" id="book-of-the-month">
+            <div class="bookCard">
+                <h2>Last month's pick:</h2>
+                <a href="#"><img src="./resources/images/book thumbnails/circe.jpeg" alt=""></a>
+            </div>
+
+            <div class="bookCard">
+                <h2>This month's pick:</h2>
+                <a href=""><img src="./resources/images/book thumbnails/only good indians.jpeg" alt=""></a>
+            </div>
         </div>
 
-        <div>
-            <h2>Read with us!</h2>
-            <form action="">
-                <label for="name">Name:</label>
-                <input type="text" name="name" id="name" required>
-                <label for="email">Email:</label>
-                <input type="text" name="email" id="email" required>
+        <div id="join-us">
+            <form action="sumbit.html" method="POST">
+                <h2>Read with us!</h2>
+                <div class="formContainer">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" required value="Enter your name">
+                </div>
+                <br>
+                <div class="formContainer">
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" id="email" required value="Enter your email">
+                </div>
+                <br>
                 <input type="submit" value="Join Us!" id="join-button">
             </form>
         </div>
 
     </main>
+
+        <footer class="flex" id="contact-info">
+            <h6>Get in touch!</h6>
+            <span class="contact" id="email"><a href="mailto:contact@aventuresofthemind.com">email</a></span>
+            <span class="contact" id="address">12 Bookshop Lane, Reading</span>
+            <span class="contact" id="phone"><a href="#">123-456-7890</a></span>
+            <span id="credits">Images from Bookshop and Unsplash</span>
+        </footer>
 
 </body>
 </html>
