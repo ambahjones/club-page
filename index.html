@@ -27,8 +27,10 @@
     <main>
 
         <div id="about">
-            <h2>Meeting of the Minds</h2>
-            <h3>A book club at Adventures of the Mind</h3>
+            <div id="about-text">
+                <h2>Meeting of the Minds</h2>
+                <h3>A book club at Adventures of the Mind</h3>
+            </div>
         </div>
 
         <div id="who-we-are">
@@ -37,10 +39,12 @@
             <p>Interested? Join below!</p>
         </div>
 
-        <div class="flex">
-            <img src="./resources/images/ben-white-1MHU3zpTvro-unsplash.jpg" alt="">
-            <img src="./resources/images/kinga-cichewicz-DUSEStKsb6Q-unsplash.jpg" alt="">
-            <img src="./resources/images/prasanna-kumar-jsN4NYG0DRk-unsplash.jpg" alt="">
+        <div id="reader-img">
+            <div class="flex" id="img-container">
+                <img src="./resources/images/ben-white-1MHU3zpTvro-unsplash.jpg" alt="">
+                <img src="./resources/images/kinga-cichewicz-DUSEStKsb6Q-unsplash.jpg" alt="">
+                <img src="./resources/images/prasanna-kumar-jsN4NYG0DRk-unsplash.jpg" alt="">
+            </div>
         </div>
 
         <div>
@@ -51,9 +55,9 @@
             <h2>Read with us!</h2>
             <form action="">
                 <label for="name">Name:</label>
-                <input type="text" name="name" id="name">
+                <input type="text" name="name" id="name" required>
                 <label for="email">Email:</label>
-                <input type="text" name="email" id="email">
+                <input type="text" name="email" id="email" required>
                 <input type="submit" value="Join Us!" id="join-button">
             </form>
         </div>
