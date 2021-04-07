@@ -73,14 +73,24 @@ h1 {
 }
 
 @media only screen and (max-width: 480px) {
-  h1 {
+  #lg-screen-h1 {
+    display: none;
+  }
+
+  #mobile-header {
+    display: inline-block;
     font-size: 1.8rem;
     padding-top: 2rem;
   }
 }
 
 @media only screen and (max-width: 320px) {
-  h1 {
+  #lg-screen-h1 {
+    display: none;
+  }
+
+  #mobile-header {
+    display: inline-block;
     font-size: 1.5rem;
     padding-top: 2rem;
   }
@@ -161,14 +171,14 @@ nav {
     display: none;
   }
 
-  nav #mobile-nav {
+  #mobile-link {
     display: inline-block;
     height: 3rem;
     padding: 1.2rem 1rem 0rem 0rem;
     margin-top: 6rem;
   }
 
-  nav #mobile-nav a {
+  #mobile-link a {
     height: 3rem;
     padding: 0rem;
     font-size: 1rem;
