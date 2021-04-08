@@ -230,6 +230,25 @@ main {
   background-color: rgb(252, 249, 249, 0.5);
 }
 
+@media only screen and (max-width: 480px) {
+  #about {
+    width: 100%;
+    height: auto;
+  }
+
+  #about-text {
+    padding: 0;
+  }
+
+  #about h2 {
+    font-size: 3.2rem;
+  }
+
+  #about h3 {
+    font-size: 1.8rem;
+  }
+}
+
 #who-we-are {
   height: 30rem;
   width: 80%;
@@ -253,7 +272,31 @@ main {
   font-size: 2.2rem;
 }
 
+@media only screen and (max-width: 480px) {
+  #who-we-are {
+    height: auto;
+    width: 90%;
+  }
+
+  #who-we-are h2 {
+    font-size: 1.9rem;
+    padding: 2.4rem;
+  }
+
+  #who-we-are p {
+    width: 75%;
+    font-size: 1.2rem;
+    padding-bottom: 2.4rem;
+  }
+
+  #who-we-are h4 {
+    font-size: 1.6rem;
+    padding-bottom: 2.4rem;
+  }
+}
+
 #readers {
+  height: 60rem;
   background-color: rgb(252, 249, 249, 0.5);
 }
 
@@ -272,7 +315,7 @@ main {
 
 #img-container img {
   width: 40rem;
-  height: 27rem;
+  /*height: 27rem;*/
 }
 
 #reader-img-cap {
@@ -281,6 +324,31 @@ main {
 
 #reader-img-cap h4 {
   font-size: 2.4rem;
+}
+
+@media only screen and (max-width: 480px) {
+  #readers {
+    height: auto;
+  }
+
+  #reader-img {
+    width: 100%;
+    height: auto;
+  }
+
+  #img-container {
+    height: auto;
+  }
+
+  #img-container img {
+    width: 100%;
+    /*height: 20rem;*/
+    align-content: space-around;
+  }
+
+  #reader-img-cap {
+    padding: 2.5rem 0;
+  }
 }
 
 #book-of-the-month {
@@ -303,9 +371,26 @@ main {
   width: 20rem;
 }
 
+@media only screen and (max-width: 480px) {
+  #book-of-the-month {
+    height: auto;
+    width: 100%;
+  }
+
+  .bookCard {
+    width: 100%;
+  }
+}
+
 #join-us {
   height: 40rem;
   padding: 5rem 0;
+}
+
+@media only screen and (max-width: 480px) {
+  #join-us {
+    height: auto;
+  }
 }
 
 #join-us h2 {
@@ -340,6 +425,21 @@ form #join-button {
   height: 5rem;
   padding: 1rem;
   font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 480px) {
+  form {
+    width: 75%;
+    height: auto;
+  }
+
+  form #join-button {
+    width: 40%;
+  }
+
+  #join-us h2 {
+    padding: 2.5rem 0 5rem 0;
+  }
 }
 
 footer {
