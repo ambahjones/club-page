@@ -308,6 +308,16 @@ main {
   font-size: 2.2rem;
 }
 
+@media only screen and (min-width: 835px) and (max-width: 1200px) {
+  #who-we-are {
+    height: auto;
+  }
+
+  #who-we-are h4 {
+    padding-bottom: 2.4rem;
+  }
+}
+
 @media only screen and (min-width: 769px) and (max-width: 834px) {
   #who-we-are {
     height: auto;
@@ -406,6 +416,29 @@ main {
 
 #reader-img-cap h4 {
   font-size: 2.4rem;
+}
+
+@media only screen and (min-width: 835px) and (max-width: 1200px) {
+  #readers {
+    height: auto;
+  }
+
+  #reader-img {
+    width: 70%;
+    height: auto;
+  }
+
+  #img-container {
+    height: auto;
+  }
+
+  #img-container img {
+    width: 100%;
+  }
+
+  #reader-img-cap {
+    padding: 2.5rem 0;
+  }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 834px) {
