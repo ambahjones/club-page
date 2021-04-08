@@ -230,6 +230,42 @@ main {
   background-color: rgb(252, 249, 249, 0.5);
 }
 
+@media only screen and (min-width: 769px) and (max-width: 834px) {
+  #about {
+    height: auto;
+  }
+
+  #about-text {
+    padding: 0;
+  }
+
+  #about h2 {
+    font-size: 6.2rem;
+  }
+
+  #about h3 {
+    font-size: 3.4rem;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  #about {
+    height: auto;
+  }
+
+  #about-text {
+    padding: 0;
+  }
+
+  #about h2 {
+    font-size: 6.4rem;
+  }
+
+  #about h3 {
+    font-size: 3.4rem;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   #about {
     width: 100%;
@@ -270,6 +306,52 @@ main {
 
 #who-we-are h4 {
   font-size: 2.2rem;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 834px) {
+  #who-we-are {
+    height: auto;
+    width: 90%;
+  }
+
+  #who-we-are h2 {
+    font-size: 2.6rem;
+    padding: 2.4rem;
+  }
+
+  #who-we-are p {
+    width: 75%;
+    font-size: 1.6rem;
+    padding-bottom: 2.4rem;
+  }
+
+  #who-we-are h4 {
+    font-size: 2rem;
+    padding-bottom: 2.4rem;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  #who-we-are {
+    height: auto;
+    width: 90%;
+  }
+
+  #who-we-are h2 {
+    font-size: 2.6rem;
+    padding: 2.4rem;
+  }
+
+  #who-we-are p {
+    width: 75%;
+    font-size: 1.6rem;
+    padding-bottom: 2.4rem;
+  }
+
+  #who-we-are h4 {
+    font-size: 2rem;
+    padding-bottom: 2.4rem;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -326,6 +408,54 @@ main {
   font-size: 2.4rem;
 }
 
+@media only screen and (min-width: 769px) and (max-width: 834px) {
+  #readers {
+    height: auto;
+  }
+
+  #reader-img {
+    width: 100%;
+    height: auto;
+  }
+
+  #img-container {
+    height: auto;
+  }
+
+  #img-container img {
+    width: 100%;
+    /*height: 20rem;*/
+  }
+
+  #reader-img-cap {
+    padding: 2.5rem 0;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  #readers {
+    height: auto;
+  }
+
+  #reader-img {
+    width: 100%;
+    height: auto;
+  }
+
+  #img-container {
+    height: auto;
+  }
+
+  #img-container img {
+    width: 100%;
+    /*height: 20rem;*/
+  }
+
+  #reader-img-cap {
+    padding: 2.5rem 0;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   #readers {
     height: auto;
@@ -343,7 +473,6 @@ main {
   #img-container img {
     width: 100%;
     /*height: 20rem;*/
-    align-content: space-around;
   }
 
   #reader-img-cap {
@@ -387,6 +516,18 @@ main {
   padding: 5rem 0;
 }
 
+@media only screen and (min-width: 769px) and (max-width: 834px) {
+  #join-us {
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  #join-us {
+    height: auto;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   #join-us {
     height: auto;
@@ -425,6 +566,37 @@ form #join-button {
   height: 5rem;
   padding: 1rem;
   font-size: 1.2rem;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 834px) {
+  form {
+    width: 65%;
+    height: auto;
+    padding: 1rem 1rem 2rem 1rem;
+  }
+
+  form #join-button {
+    width: 25%;
+  }
+
+  #join-us h2 {
+    padding: 1rem 0 4rem 0;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  form {
+    width: 75%;
+    height: auto;
+  }
+
+  form #join-button {
+    width: 25%;
+  }
+
+  #join-us h2 {
+    padding: 2.5rem 0 5rem 0;
+  }
 }
 
 @media only screen and (max-width: 480px) {
